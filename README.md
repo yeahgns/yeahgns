@@ -28,7 +28,3 @@ Engenheiro focado em **infraestrutura, automação, segurança e confiabilidade 
 - **A solução:** Interface construída sem dependências que agrupa o histórico por `linkedid`, calcula tempo real de espera (descontando URA) e mapeia chamadas perdidas sem retorno. Todo esse desenvolvimento buscou a praticidade para os clientes de enxergar o que realmente precisam.
 
 ---
-
-**Contato**
-
-[LinkedIn](https://www.linkedin.com/in/guilhermensantos7/)
