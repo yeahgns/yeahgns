@@ -1,16 +1,34 @@
-## Hi there 👋
+## Olá, eu sou o Guilherme 👋
 
-<!--
-**yeahgns/yeahgns** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**SRE & SysAdmin | Specialty in VoIP**
 
-Here are some ideas to get you started:
+Engenheiro focado em **infraestrutura, automação, segurança e confiabilidade de sistemas de telefonia (PBX/VoIP)**. Minha atuação vai desde o gerenciamento de redes e virtualização (Proxmox/Linux) até o desenvolvimento de ferramentas internas e automações que transformam a experiência do cliente final.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 💡 O que eu faço no dia a dia
+
+- **Infraestrutura como Código & Automação:** Orquestração e gerenciamento de frotas de VMs (Proxmox + Ansible) para provisionamento e deploys contínuos sem downtime.
+- **Confiabilidade & Observabilidade (SRE):** Implantação e manutenção de métricas de saúde de infraestrutura e serviços (Zabbix, Prometheus, Webhooks).
+- **Segurança em Camada de Rede:** Hardening de servidores Linux, controle de acesso e mitigação proativa de ataques em ambientes expostos à internet.
+- **Engenharia de Software de Apoio:** Desenvolvimento de ferramentas e relatórios customizados para resolver dores reais de negócio e usabilidade no ecossistema de PBX (Asterisk/Issabel).
+
+---
+
+### 🚀 Principais Projetos (até o momento)
+
+#### 🛡️ [SIP Shield](https://github.com/yeahgns/sip-shield)
+> **Proteção plug-and-play em camada de rede para servidores PBX (Issabel/Asterisk).**
+- **O problema:** Servidores VoIP públicos sofrem ataques brutais de SIP scanning constantemente; ferramentas de aplicação (Fail2ban) só reagem *após* as tentativas.
+- **A solução:** Firewall inteligente via `iptables`/`ipset` que bloqueia tráfego fora do país de destino em nível de pacote (GeoIP), fecha portas de gerenciamento para `localhost` e exporta métricas estruturadas (Prometheus/JSON) com instalador idempotente para automação via Ansible.
+
+#### 📊 [Issabel CDR Report v2](https://github.com/yeahgns/issabel-cdr-report-v2)
+> **Relatório de CDR reescrito para transformar registros crus de telefonia em métricas humanas.**
+- **O problema:** O relatório nativo do Issabel gera dezenas de linhas poluídas para uma única ligação (tentativas por ramal, filas, etc.), confundindo os clientes.
+- **A solução:** Interface construída sem dependências que agrupa o histórico por `linkedid`, calcula tempo real de espera (descontando URA) e mapeia chamadas perdidas sem retorno. Todo esse desenvolvimento buscou a praticidade para os clientes de enxergar o que realmente precisam.
+
+---
+
+**Contato**
+
+[LinkedIn](https://www.linkedin.com/in/guilhermensantos7/)
