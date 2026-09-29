@@ -27,4 +27,9 @@ Engenheiro focado em **infraestrutura, automação, segurança e confiabilidade 
 - **O problema:** O relatório nativo do Issabel gera dezenas de linhas poluídas para uma única ligação (tentativas por ramal, filas, etc.), confundindo os clientes.
 - **A solução:** Interface construída sem dependências que agrupa o histórico por `linkedid`, calcula tempo real de espera (descontando URA) e mapeia chamadas perdidas sem retorno. Todo esse desenvolvimento buscou a praticidade para os clientes de enxergar o que realmente precisam.
 
+#### 🎧 [Issabel Call Center Plus](https://github.com/yeahgns/issabel-callcenter-v2)
+> **Um painel de call center que mostra, num relance, o que está acontecendo na operação.**
+- **O problema:** Supervisores precisam saber na hora quem está atendendo, quem está em pausa e se tem cliente esperando. No Issabel nativo, essa visão é difícil de montar e não funciona bem numa TV da operação.
+- **A solução:** Um painel em tempo real que mostra a situação de cada agente, o tamanho das filas (com alerta quando o cliente espera demais) e o andamento das campanhas de saída. Pode ser deixado em tela cheia numa TV, respeita as permissões de cada usuário e é instalado sem mexer no que já existe no Call Center.
+
 ---
