@@ -1,6 +1,6 @@
 ## Olá, eu sou o Guilherme 👋
 
-**SRE & SysAdmin | Specialty in VoIP**
+**SysAdmin & Infra | Specialty in VoIP**
 
 Engenheiro focado em **infraestrutura, automação, segurança e confiabilidade de sistemas de telefonia (PBX/VoIP)**. Minha atuação vai desde o gerenciamento de redes e virtualização (Proxmox/Linux) até o desenvolvimento de ferramentas internas e automações que transformam a experiência do cliente final.
 
