@@ -1,4 +1,4 @@
-## Olá, eu sou o Guilherme 👋
+## Olá, me chamo Guilherme
 
 **SysAdmin & Infra | Specialty in VoIP**
 
