@@ -9,9 +9,9 @@ Engenheiro focado em **infraestrutura, automação, segurança e confiabilidade 
 ### 💡 O que eu faço no dia a dia
 
 - **Infraestrutura como Código & Automação:** Orquestração e gerenciamento de frotas de VMs (Proxmox + Ansible) para provisionamento e deploys contínuos sem downtime.
-- **Confiabilidade & Observabilidade (SRE):** Implantação e manutenção de métricas de saúde de infraestrutura e serviços (Zabbix, Prometheus, Webhooks).
+- **Confiabilidade & Observabilidade:** Implantação e manutenção de métricas de saúde de infraestrutura e serviços (Zabbix, Prometheus, Webhooks).
 - **Segurança em Camada de Rede:** Hardening de servidores Linux, controle de acesso e mitigação proativa de ataques em ambientes expostos à internet.
-- **Engenharia de Software de Apoio:** Desenvolvimento de ferramentas e relatórios customizados para resolver dores reais de negócio e usabilidade no ecossistema de PBX (Asterisk/Issabel).
+- **Engenharia de Software de Apoio:** Desenvolvimento de ferramentas e relatórios customizados para resolver dores reais de negócio e usabilidade no ecossistema de PBX (Asterisk).
 
 ---
 
